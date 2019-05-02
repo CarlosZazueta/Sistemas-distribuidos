@@ -24,7 +24,7 @@ void setup() {
   pinMode(2, OUTPUT);
   Serial.begin(115200);
   Serial.print("Connecting");
-  WiFi.begin("Issid","pass");
+  WiFi.begin("ssid","pass");
   while(WiFi.status() != WL_CONNECTED){
     delay(500);
     Serial.print(".");
