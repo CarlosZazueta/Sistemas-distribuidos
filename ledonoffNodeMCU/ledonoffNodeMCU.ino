@@ -24,7 +24,7 @@ void setup() {
   pinMode(2, OUTPUT);
   Serial.begin(115200);
   Serial.print("Connecting");
-  WiFi.begin("INFINITUMHP2V_2.4","FfNV5GFzxE");
+  WiFi.begin("Issid","pass");
   while(WiFi.status() != WL_CONNECTED){
     delay(500);
     Serial.print(".");
